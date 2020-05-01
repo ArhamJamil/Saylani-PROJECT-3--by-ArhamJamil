@@ -1,0 +1,380 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Bree Serif', serif;
+
+
+}
+/* upper blu container haeder */
+
+.uppercontainer{
+    background-color: #316DC3;
+    text-align: center;
+    color: whitesmoke;
+    
+}
+.uppercontainer:hover{
+    transition: background-color 0.6s linear;
+    background-color: lawngreen;
+    color:#316DC3 ;
+}
+
+
+
+.icons-li{
+    display: inline-flex;
+    list-style-type: none;
+    margin: 0px 60px ;
+    
+}
+.icons-li li{
+    padding: 12px 10px;
+    
+}
+
+
+.heading{
+    margin: 15px;
+}
+.mybuttons{
+    display: inline-flex ;
+    list-style-type: none;
+    /* margin: 0px 0px; */
+    
+    padding: 10px 0px;
+    
+}
+.mybuttons li{
+    border: 1px solid #427900 ;
+    /* padding: 5px 10px; */
+    margin: 0px 13px;
+    padding: 5px 10px;
+    font-size: 11px;
+    color:#427900 ;
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+.mybuttons a{
+    text-decoration: none;
+    color: #427900;
+}
+
+.mybuttons li:hover{
+    transition: background-color 0.7s ease-in;
+    background-color: #316DC3;
+    color: whitesmoke;
+}
+
+/* upper blu container css end here */
+
+/* NavBar css below start */
+
+.logo img{
+    height: 70px;
+    
+}
+.header-Nav{
+    text-align: center;
+    background-color: #F7F8FA; 
+    width: 100%;
+height: 100%;
+display: block;
+
+}
+.Menu a li{
+    background-color: #316DC3 ;
+    color: #F7F8FA ;
+   
+}
+.Menu a{
+    text-decoration: none;
+  
+}
+#Home{
+    background-color:#316DC3 ;
+    color: whitesmoke;
+    padding: 10px 10px;
+    font-size: 15px;
+    border-radius: 15px;
+    margin: 5px 40px;
+}
+.asfmnd{
+    padding: 10px;
+    background-color:#316DC3 ;
+    color: whitesmoke;
+    font-size: 15px;
+    border-radius: 15px;
+    margin: 5px 40px;
+   }
+
+.asfmnd:hover{
+    transition: background-color 0.9s ease-in-out;
+    background-color: lawngreen;
+    color:#316DC3 ;
+} 
+
+
+
+
+/* nav bar css end */
+.imgcontanier img{
+width: 100%;
+height: 100%;
+display: block;
+  
+}
+
+.introcontainer{
+    background-color: #F7F8FA;
+text-align: center;
+}
+
+
+.main-intro{
+margin: 10px 30px;
+}
+
+
+.INTRO{
+    display: inline-flex;
+    font-size: 25px;
+    margin-top: 15px;
+    color:#316DC3;
+    text-decoration: underline lawngreen;
+}
+.DUCTION{
+display: inline-flex;
+font-size: 25px;
+margin-top: 15px;
+color: lawngreen;
+text-decoration: #316DC3 underline;
+}
+.logo2{
+    margin-bottom: 10px;
+}
+.inrtoduction{
+color: #666666;
+text-align: justify;
+}
+
+.numcontainer{
+    background-color: rgb(36, 79, 242,0.8)
+
+}
+.insnumcont{
+    text-align: center;
+    color: white;
+}
+.foodcont{
+ padding: 15px 15px;
+}
+.familycont{
+    padding: 15px 15px;
+}
+.medicalcont{
+    padding: 20px 15px;
+}
+
+.graduatecont{
+    padding: 15px 15px;
+}
+.slog{
+    font-size: 16px;
+}
+.green{
+    color: lawngreen;
+    font-size: 18px;
+}
+.num{
+    padding: 15px;
+    font-size: 48px;
+}
+
+.services-cont{
+    background-color: #F7F8FA;
+
+}
+.contofsvr{
+    padding: 60px 15px;
+}
+
+.headsvr{
+    text-align: center;
+}
+.logo-i{
+    height: 60px;
+    width:60px;
+    padding: 20px 0px;
+}
+.t-icon{
+    text-align: center;
+}
+.WE{
+    color: #316DC3;
+    font-size: 25px;
+}
+
+.AD{
+    color: lawngreen;
+    font-size: 25px;
+}
+
+.box-1, .box-2 , .box-3 , .box-4, .box-5, .box-6{
+   
+    background-color: white;
+    box-shadow: 0px 8px 20px 0px #427900;
+    text-align: center;
+    margin: 20px 10px; 
+}
+
+.box-icons{
+    height: 60px;
+    width: 60px;
+    padding: 20px 0px;
+}
+.boxheading{
+    color: #316DC3;
+    font-size: 23px;
+    padding: 15px 0px;
+}
+
+
+.projects-cont{
+    background-color: white;
+}
+.insideprojcont{
+    padding: 20px 20px;
+  
+}
+.algleft{
+color: #316DC3;
+text-align: center;
+}
+
+.headbox-1,.headbox-2,.headbox-3,.headbox-4{
+    background-color: #F7F8FA;
+    text-align: center;
+     margin: 30px 0px;
+    box-shadow: 0px 10px 20px 0px #427900;
+
+    
+
+}
+
+.projimg{
+    height: 32px ;
+    width: 32px;
+    margin: 20px 20px;
+
+}
+.innerbox{
+    display: inline-flex;
+}
+.projP{
+    margin: 25px 25px;
+    color: #316DC3;
+    font-size: 18px;
+}
+
+.MAUP{
+    text-align: center;
+    color: #316DC3;
+    padding: 10px 0px;
+}
+.subnews{
+    text-align: justify;
+    color: #666666;
+    padding: 20px 20px;
+    box-shadow: 0px 10px 20px 0px #666666;
+    margin: 20px 0px;
+}
+.sub-1,.sub-2{
+    padding: 15px 10px;
+    
+}
+
+.imgmaincont{
+    background-color: white;
+}
+.IMAGE,.GALLERY{
+    display: inline-flex;
+    
+}
+.imghead{
+    text-align: center;
+}
+.slani{
+   
+height: 150px;
+
+box-shadow: 0px 10px 20px 0px #427900;
+margin: 10px 0px;
+
+}
+.logo3{
+    margin-bottom: 20px;
+}
+
+.img5{
+    text-align: center;
+    
+}
+
+
+.footcont{
+    background-color: #25272E;
+}
+.copyright{
+    background-color: #316DC3;
+}
+
+
+.fas{
+    color:#427900;
+    margin: 10px 10px;
+    
+}
+.maininfo{
+    text-align: justify;
+    list-style: none;
+}
+.info{
+    text-align: center;
+}
+.headoffice{
+   
+    padding: 30px 0px;
+}
+
+.useful{
+    text-align: center;
+    margin: 10px 0px;
+}
+.HR{
+   margin: 10px 30px;
+}
+
+.connct{
+    text-align: center;
+}
+
+.sub-img{
+    height: 25px;
+    
+    padding: 20px 0px;
+    padding-left: 15px;
+
+
+}
+
+
+.CWS,.Links{
+    color: #F7F8FA;
+}
+
+.copyinner{
+    text-align: center;
+    padding: 20px 15px;
+    color: #F7F8FA;
+}
